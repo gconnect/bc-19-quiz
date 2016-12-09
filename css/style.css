@@ -1,0 +1,109 @@
+ body{
+    background: purple;
+}
+.dash{
+    width: 55%;
+    margin: 50px auto;
+}
+.eq{
+    margin: 60px 10px;
+    color: #fff;
+    font-family: ;
+}
+.myForm{
+    margin: 50px 0;
+}
+
+.signin {
+    background-color: purple;
+    padding:50px;
+    margin-left: 70px
+}
+
+.myrow{
+    margin-bottom: 60px;
+    margin-right:100px;
+   ;
+}
+
+.enter{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.mypanel{
+    margin:10px;
+
+}
+
+.me{
+    width: 100%;
+}
+
+.signup{
+	width: 60%;
+	margin: 0 auto;
+
+
+.right-btn{
+	width: 60%;
+	margin: 5px auto;
+}
+.mp{
+	margin-bottom: 0;
+}
+.rm{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.ans{
+     margin-left: 20px;
+            }
+
+.nyContainer{
+    width: 65%;
+    margin: 0 auto;
+}
+.pad{
+    padding: 15px;
+}
+.bg{
+    background: #c0d5db;
+}
+.eq{
+    margin: 55px 0;
+}
+.myBtn{
+    background-color: #fff;
+}
+
+.transButton{
+    background: transparent;
+    color: #fff;
+    padding: 15px 30px;
+    border: 1px solid #fff;
+}
+.transButton:hover{
+    color: #eee1f2;
+}
+.glo{
+background-color: white;
+border:1px red;
+}
+#question-holder{
+    font-size: 2em;
+}
+
+#h1Text{
+    color: white;
+    font-weight: 100px;
+}
+
+#submit{
+    text-align: center;
+    font-size: 50px;
+}

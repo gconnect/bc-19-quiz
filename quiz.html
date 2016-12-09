@@ -1,0 +1,68 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="An official quiz app from the stable of Andela">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Quiz | Welcome</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+       <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+        <script src="jquery.js"></script>
+        <script src="app.js"></script>
+        
+    </head>
+    <body>
+
+        <div class="container nyContainer">
+        	<div class="headinng">
+        		<h1 class="eq text-center">AndeQuiz</h1>
+        		<div class="jumbotron bg">
+        			<h2 id="question" style="size: 50px;">Brain Teaser!</h2>
+        		</div>
+        	</div>
+        	<div class="row">
+        		<div class="col-sm-6" id= "glo" style="background-color: white; font-size: 30px"; margin:20px;>
+        			<div class="obj">
+		        		<ul class="list-group">
+		        			<div id = 'question-holder'>
+                                
+                            </div>
+		        			<div class="Next">
+                             <button onclick="preQuestion()" type="button" class = "btn btn-primary" id = 'next'>Next</button>
+                             </div>
+                           <div class="submit">
+                             <button  type="button"  onclick = "getquestion()" class="btn btn-success" class="btn-lg" id = 'start'>Start</button>
+                          </div>
+		        		</ul>
+        			</div>
+        		</div>
+        		<div class="col-sm-5 col-sm-offset-1">
+        			<div class="panel panel-info">
+                        <div class="panel-heading" class="hide">
+                            Leader Board
+                        </div>
+                        <div class="panel-body >
+                            <div class="list-group class="hide"">
+                            	<p class="list-group-item">Name: </p>
+                            	<p class="list-group-item">Score: </p>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            play  and learn
+                        </div>
+                    </div>
+        		</div>
+        	</div>
+        	<div class="list-group btn-primary pad">
+        		<ul class="pager">
+			<div class="submit transButton">
+            <button type="button" class="btn btn-success" id = 'submit'>Submit</button>
+           </div>
+				</ul>
+        	</div>
+        	
+        </div>
+        <!-- <script src="js/main.js"></script> -->
+    </body>
+</html>
